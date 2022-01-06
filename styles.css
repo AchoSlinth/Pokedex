@@ -8,6 +8,10 @@ input {
     padding: 10px;
 }
 
+.img-margin {
+    margin:5px;
+  }
+
 .poke-card {
     position: relative;
     height: fit-content;
@@ -49,11 +53,12 @@ input {
     font-size: 18px;
 }
 
-.poke-types div {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 4px;
-    border: 1px dashed black;
+.poke-types img {
+    max-width:20%;
+    max-height:20%;
+    justify-content: space-between;
+    align-content: space-between;
+    object-fit: contain;
 }
 
 .poke-img {
